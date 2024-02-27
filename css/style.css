@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#ex1{
+border: 10px solid red;
+height: 100vh;
+
+display: flex;
+align-items: center; /** vertical **/
+justify-content: center; /** horizontal **/
+} 
+
+h1{
+    font-size: 75px;
+    color: bisque;
+    
+}
+
+/************** CONTATO **************/
+
+#ex2{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 34, 34);
+    color: bisque;
+
+}
+
+h2{
+    
+    font-size: 70px;
+}
+
+#css{
+    height: 50vh;
+    width: 50vw;
+    background-color: rgb(49, 49, 155);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 15px solid black;
+}
+
+#html{
+ height: 50vh;
+ width: 50vw;
+ background-color: rgb(104, 41, 41);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 15px solid black;
+
+}
+
+section{
+    text-align: left;
+    font-size: 20px;
+    font-family: Helvetica;
+
+}
